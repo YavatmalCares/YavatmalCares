@@ -23,10 +23,11 @@
 
 .color-navb{
   background-color: #76509f;
- 
- 
 }
 
+.nav-link {
+  font-size: small;
+}
 
 .custom-btn-toolbar {
   display: inline !important;

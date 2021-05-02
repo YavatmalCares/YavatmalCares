@@ -33,22 +33,22 @@ function App() {
         <div className="Box">
               { 
               show?
-              <iframe class="airtable-embed" src="https://airtable.com/embed/shr6Pf2Dc3odgIVpc?backgroundColor=yellow" 
+              <iframe title="Doner"class="airtable-embed" src="https://airtable.com/embed/shr6Pf2Dc3odgIVpc?backgroundColor=yellow" 
               frameborder="0" onmousewheel="" width="100%" height="533" 
               styles="background: transparent; border: 1px solid #ccc;">
               </iframe>
               :null}
               {
               showR?
-              <iframe class="airtable-embed" src="https://airtable.com/embed/shrlPtj561qqfHLok?backgroundColor=yellow" 
+              <iframe title="Request" class="airtable-embed" src="https://airtable.com/embed/shrlPtj561qqfHLok?backgroundColor=yellow" 
               frameborder="0" onmousewheel="" width="100%" height="533" 
               styles="background: transparent; border: 1px solid #ccc;"/>:null
               } 
         </div>
 
         <Navbar className="justify-content-end" >
-          <Navbar.Text  fixed="bottom">
-            Developer: <a href="https://github.com/AdityaChondke">Aditya Chondke</a>
+          <Navbar.Text className="nav-link" fixed="bottom">
+            Developer: <a href="https://github.com/AdityaChondke" target="_blank" rel = "noopener noreferrer">Aditya Chondke</a>
           </Navbar.Text>
       </Navbar>
     
