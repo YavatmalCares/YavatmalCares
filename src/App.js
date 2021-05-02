@@ -1,6 +1,6 @@
 import './App.css';
 import React,{useState} from 'react'
-import {  ButtonToolbar, Button,Card,Navbar,Nav } from 'react-bootstrap'
+import {  ButtonToolbar, Button,Card,Navbar } from 'react-bootstrap'
 import plasma from './plasma.gif';
 
 function App() {
@@ -46,8 +46,8 @@ function App() {
               } 
         </div>
 
-        <Navbar className="justify-content-end" fixed="bottom">
-          <Navbar.Text >
+        <Navbar className="justify-content-end" >
+          <Navbar.Text  fixed="bottom">
             Developer: <a href="https://github.com/AdityaChondke">Aditya Chondke</a>
           </Navbar.Text>
       </Navbar>
