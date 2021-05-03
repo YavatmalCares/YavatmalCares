@@ -48,7 +48,7 @@ function App() {
 
         <Navbar className="justify-content-end" >
           <Navbar.Text className="nav-link" fixed="bottom">
-            Developer: <a href="https://github.com/AdityaChondke" target="_blank" rel = "noopener noreferrer">Aditya Chondke</a>
+            @: <a href="https://github.com/AdityaChondke" target="_blank" rel = "noopener noreferrer">Aditya</a>
           </Navbar.Text>
       </Navbar>
     
